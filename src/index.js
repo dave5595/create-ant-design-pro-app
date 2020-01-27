@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import configureStore from './redux/store/configureStore'
-import 'moment/locale/zh-cn'
-import zhCN from 'antd/lib/locale-provider/zh_CN'
+import 'moment/locale/en-ca'
+import enUS from 'antd/lib/locale-provider/en_US'
 import { LocaleProvider } from 'antd'
 import * as serviceWorker from './serviceWorker';
 
@@ -19,7 +19,7 @@ const store = configureStore()
 
 ReactDOM.render(
   <Provider store={store}>
-    <LocaleProvider locale={zhCN}>
+    <LocaleProvider locale={enUS}>
       <HashRouter>
         <App/>
       </HashRouter>
