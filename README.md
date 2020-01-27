@@ -1,8 +1,8 @@
-# react-ant-design
+# Create-ant-design-pro-app
 
-> react ant 练手
+> create react app with ant design pro
 
-## 安装运行
+## Getting started
 
 ``` bash
 # install dependencies
