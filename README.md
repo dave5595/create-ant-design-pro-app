@@ -1,6 +1,6 @@
 # Create-ant-design-pro-app
 
-> create react app with ant design pro
+> Ant Design Pro porting umijs and dva with CRA
 
 ## Getting started
 
